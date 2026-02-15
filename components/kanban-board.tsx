@@ -18,6 +18,10 @@ interface Task {
   column_id: string;
   position: number;
   priority: string;
+  urgency: string;
+  due_date: string | null;
+  estimated_hours: number;
+  status: string;
   created_at: string;
 }
 
