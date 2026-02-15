@@ -187,55 +187,39 @@ export function Dashboard() {
             <div className="flex items-center gap-4">
               <h1 className="text-xl font-bold text-gray-900 dark:text-white">AI Project Manager</h1>
 
-              <div className="flex items-center gap-2">
-                <select
-                  value={selectedProject?.id || ''}
-                  onChange={(e) => {
-                    const project = projects.find(p => p.id === e.target.value);
-                    setSelectedProject(project || null);
-                  }}
-                  className="px-3 py-1.5 border border-gray-300 dark:border-gray-600 rounded-md text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                >
-                  {projects.map(project => (
-                    <option key={project.id} value={project.id}>
-                      {project.name}
-                    </option>
-                  ))}
-                </select>
+              {selectedProject && (
+                <div className="flex items-center gap-2">
+                  <span className="text-sm text-gray-600 dark:text-gray-400">
+                    {selectedProject.name}
+                  </span>
+                  {selectedBoard && (
+                    <>
+                      <span className="text-gray-400 dark:text-gray-600">/</span>
+                      <span className="text-sm text-gray-600 dark:text-gray-400">
+                        {selectedBoard.name}
+                      </span>
+                    </>
+                  )}
+                </div>
+              )}
 
+              <div className="flex items-center gap-2">
                 <button
                   onClick={() => setShowProjectForm(true)}
                   className="px-3 py-1.5 bg-blue-600 text-white text-sm rounded-md hover:bg-blue-700"
                 >
                   + Project
                 </button>
-              </div>
 
-              {selectedProject && (
-                <div className="flex items-center gap-2 ml-4 pl-4 border-l border-gray-300 dark:border-gray-600">
-                  <select
-                    value={selectedBoard?.id || ''}
-                    onChange={(e) => {
-                      const board = boards.find(b => b.id === e.target.value);
-                      setSelectedBoard(board || null);
-                    }}
-                    className="px-3 py-1.5 border border-gray-300 dark:border-gray-600 rounded-md text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                  >
-                    {boards.map(board => (
-                      <option key={board.id} value={board.id}>
-                        {board.name}
-                      </option>
-                    ))}
-                  </select>
-
+                {selectedProject && (
                   <button
                     onClick={() => setShowBoardForm(true)}
                     className="px-3 py-1.5 bg-green-600 text-white text-sm rounded-md hover:bg-green-700"
                   >
                     + Board
                   </button>
-                </div>
-              )}
+                )}
+              </div>
             </div>
 
             <div className="flex items-center gap-3">
