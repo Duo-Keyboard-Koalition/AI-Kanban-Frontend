@@ -1,0 +1,67 @@
+{
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2026-02-19 16:38:12 +0000"
+    },
+    "done": true
+  },
+  "gm4:root": {
+    "criteria": {
+      "automatic": "2026-02-19 16:38:12 +0000"
+    },
+    "done": true
+  },
+  "gm4-1.4:intro_song/welcome_toast": {
+    "criteria": {
+      "requirement": "2026-02-19 16:38:12 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:multiplayer_sleep": {
+    "criteria": {
+      "tick": "2026-02-19 16:38:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-02-19 16:38:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2026-02-19 17:08:49 +0000",
+      "minecraft:birch_forest": "2026-02-19 17:10:17 +0000",
+      "minecraft:windswept_hills": "2026-02-19 17:04:24 +0000",
+      "minecraft:savanna_plateau": "2026-02-19 17:08:25 +0000",
+      "minecraft:lukewarm_ocean": "2026-02-19 17:04:20 +0000",
+      "minecraft:river": "2026-02-19 17:04:21 +0000",
+      "minecraft:snowy_plains": "2026-02-19 16:38:12 +0000",
+      "minecraft:stony_shore": "2026-02-19 17:10:08 +0000",
+      "minecraft:snowy_taiga": "2026-02-19 17:04:18 +0000",
+      "minecraft:swamp": "2026-02-19 17:04:33 +0000",
+      "minecraft:forest": "2026-02-19 17:04:39 +0000",
+      "minecraft:ocean": "2026-02-19 16:38:46 +0000",
+      "minecraft:jungle": "2026-02-19 17:04:31 +0000",
+      "minecraft:snowy_beach": "2026-02-19 17:09:21 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-02-19 17:04:22 +0000",
+      "minecraft:savanna": "2026-02-19 17:08:11 +0000",
+      "minecraft:plains": "2026-02-19 17:04:25 +0000"
+    },
+    "done": false
+  },
+  "gm4_end_fishing:set_id": {
+    "criteria": {
+      "join_world": "2026-02-19 16:38:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-02-19 16:52:57 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

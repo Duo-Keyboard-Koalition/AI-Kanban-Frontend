@@ -1,0 +1,236 @@
+[17:14:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:14:01] [ServerMain/INFO]: Found non-pack entry './world/datapacks/.DS_Store', ignoring
+[17:14:04] [Worker-Main-8/ERROR]: Couldn't parse element predicates:multiplayer_sleep:clear_day
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.world.level.storage.loot.JsonRegistry$c.deserialize(SourceFile:99) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.ChatDeserializer.a(SourceFile:463) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.util.ChatDeserializer.a(SourceFile:471) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemConditionInverted$a.b(SourceFile:54) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.world.level.storage.loot.predicates.LootItemConditionInverted$a.a(SourceFile:46) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.world.level.storage.loot.JsonRegistry$c.deserialize(SourceFile:102) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.a(SourceFile:82) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.world.level.storage.loot.LootDataType.a(SourceFile:48) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$5(LootDataManager.java:68) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$4(LootDataManager.java:67) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+[17:14:06] [ServerMain/WARN]: Found loot table element validation problem in {loot_tables:gm4_celaro_shamir:band}.pools[0].entries[0]: Unknown loot table called gm4_metallurgy:aluminium_band
+[17:14:06] [ServerMain/INFO]: Loaded 7 recipes
+[17:14:06] [ServerMain/ERROR]: Couldn't load advancement fafik77:auto_crafting_droppers/auto_crafting: Task Advancement{parentId=fafik77:advancements/root, display=net.minecraft.advancements.AdvancementDisplay@4f9f7fb5, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CustomFunction$a@2fc2d632}, criteria={requirement=net.minecraft.advancements.Criterion@eeaf796}, requirements=[[requirement]], sends_telemetry_event=false}
+[17:14:06] [ServerMain/ERROR]: Couldn't load advancement gm4_guidebook:celaro_shamir/page_1: Task Advancement{parentId=gm4_guidebook:metallurgy/page_6, display=net.minecraft.advancements.AdvancementDisplay@6c6de4fd, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CustomFunction$a@35e2e8a1}, criteria={requirement=net.minecraft.advancements.Criterion@2bb8161f}, requirements=[[requirement]], sends_telemetry_event=false}
+[17:14:06] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[17:14:06] [Server thread/INFO]: Loading properties
+[17:14:06] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[17:14:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:14:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:14:07] [Server thread/INFO]: Debug logging is disabled
+[17:14:07] [Server thread/INFO]: Default game type: SURVIVAL
+[17:14:07] [Server thread/INFO]: Generating keypair
+[17:14:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:14:07] [Server thread/INFO]: Using epoll channel type
+[17:14:08] [Server thread/ERROR]: Could not load 'plugins/HyEmpires-1.0-SNAPSHOT.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:180) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:435) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:972) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 6, column 1:
+    	hyempires:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:445) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:671) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:162) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeKeyNode(Composer.java:359) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:344) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:434) ~[snakeyaml-2.0.jar:?]
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:263) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:175) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 6 more
+[17:14:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:14:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:14:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:14:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:14:08] [Server thread/INFO]: Preparing level "world"
+[17:14:08] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:14:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:14:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:14:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:14:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:14:08] [Server thread/INFO]: Mob Spawn Range: 6
+[17:14:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:14:08] [Server thread/INFO]: Max TNT Explosions: 100
+[17:14:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:14:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:14:08] [Server thread/INFO]: View Distance: 10
+[17:14:08] [Server thread/INFO]: Simulation Distance: 10
+[17:14:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:14:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:14:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:14:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:14:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:14:08] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:14:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:14:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:14:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:14:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:14:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:14:08] [Server thread/INFO]: Mob Spawn Range: 6
+[17:14:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:14:08] [Server thread/INFO]: Max TNT Explosions: 100
+[17:14:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:14:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:14:08] [Server thread/INFO]: View Distance: 10
+[17:14:08] [Server thread/INFO]: Simulation Distance: 10
+[17:14:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:14:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:14:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:14:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:14:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:14:09] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:14:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:14:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:14:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:14:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:14:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:14:09] [Server thread/INFO]: Mob Spawn Range: 6
+[17:14:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:14:09] [Server thread/INFO]: Max TNT Explosions: 100
+[17:14:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:14:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:14:09] [Server thread/INFO]: View Distance: 10
+[17:14:09] [Server thread/INFO]: Simulation Distance: 10
+[17:14:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:14:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:14:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:14:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:14:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:14:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:14:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:14:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:14:11] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[17:14:11] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:14:11] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[17:14:11] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[17:14:12] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[17:14:12] [Worker-Main-9/INFO]: Preparing spawn area: 6%
+[17:14:13] [Worker-Main-15/INFO]: Preparing spawn area: 77%
+[17:14:13] [Worker-Main-19/INFO]: Preparing spawn area: 100%
+[17:14:14] [Server thread/INFO]: Time elapsed: 4858 ms
+[17:14:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:14:15] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[17:14:15] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[17:14:15] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[17:14:15] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[17:14:16] [Worker-Main-18/INFO]: Preparing spawn area: 1%
+[17:14:16] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[17:14:17] [Worker-Main-12/INFO]: Preparing spawn area: 100%
+[17:14:17] [Server thread/INFO]: Time elapsed: 3222 ms
+[17:14:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:14:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:14:18] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[17:14:18] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:14:19] [Worker-Main-16/INFO]: Preparing spawn area: 44%
+[17:14:19] [Server thread/INFO]: Time elapsed: 1987 ms
+[17:14:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:14:19] [Server thread/INFO]: Done (11.461s)! For help, type "help"
+[17:14:19] [Server thread/INFO]: Starting remote control listener
+[17:14:19] [Server thread/WARN]: No rcon password set in server.properties, rcon disabled!
+[17:15:21] [User Authenticator #1/INFO]: UUID of player Carina is e2431a3b-5371-397d-aa50-a747b679f2be
+[17:15:22] [Server thread/INFO]: Carina joined the game
+[17:15:22] [Server thread/INFO]: Carina[/172.21.0.1:59000] logged in with entity id 732 at ([world]132.34385811416973, 98.1755449320572, 248.15750730070476)
+[17:16:01] [Server thread/INFO]: Carina issued server command: /hyempires giveblock
+[17:16:06] [Server thread/INFO]: Carina issued server command: /plugins
+[17:16:10] [Server thread/INFO]: Carina lost connection: Disconnected
+[17:16:10] [Server thread/INFO]: Carina left the game
+[17:33:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[17:33:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11244ms or 224 ticks behind
+[17:34:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5022ms or 100 ticks behind
